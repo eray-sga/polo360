@@ -156,3 +156,9 @@
         height: 250px;
     }
 }
+@media(max-width:400px){
+    .footerContent{
+        height: 250px;
+    }
+
+}
