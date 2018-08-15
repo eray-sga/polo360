@@ -1,0 +1,158 @@
+.nav-item span{
+    font-size: 11px;
+    color: #b7b7b7;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.navbar-nav li{
+    border-left:1px dashed #d6d6d6;
+}
+.nav-link{
+    color: #666666 !important;
+    font-weight: 600;
+}
+.navbar a:hover{
+    color: #aaa9a9 !important;
+    
+}
+.bg-light{
+    background: linear-gradient(#e8e8e8,white) !important;
+}
+#slider{
+    background-color: #343434;
+    height: 330px;
+}
+.slider img{
+    border-radius: 1px;
+}
+.carousel-indicators li{
+    height:13px;
+    width: 13px;
+    border-radius: 13px;
+    background-color: #aaa9a9;
+    border: 3px solid #252525;
+}
+.carousel-indicators{
+    margin-right: 700px;
+}
+.active{
+    background-color: #71d3f1 !important;
+}
+#text p{
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+.hrline{
+    background-color: #e5e5e5;
+    margin-top: -5px;
+}
+.featuredText{
+    color: #11719e;
+    font-size: 21px;
+}
+#featuredBoxes h5{
+    color: #666666;
+    font-size: 12px;
+}
+.card-text{
+    font-size: 13px;
+}
+.card .btn-primary{
+    background-color: #e8e8e8;
+    border: none;
+    color: #11719e;
+    border: 2px solid #d8d8d8;
+    width: 160px;
+    text-align: left;
+}
+.card a:active{
+    background-color: #e8e8e8 !important;
+    color: #11719e !important;
+    border: none !important;
+}
+.dashed{
+    border: 1px dashed #d3d3d3;
+}
+#content h6{
+    font-size: 18px;
+}
+.social-icons img{
+    width: 40px;
+    margin-left: -15px;
+}
+.newsletter input{
+    border: 2px #cfcfcf solid;
+}
+.newsletter .btn-primary{
+    background-color: #356ca4;
+    width: 200px;
+    text-align: left;
+    border: 1px #004C7D solid;
+}
+.contact .btn-primary{
+    background-color: #356ca4;
+    width: 200px;
+    text-align: left;
+    border: 1px #004C7D solid;
+}
+.news .btn-primary{
+    background-color: #356ca4;
+    width: 200px;
+    text-align: left;
+    border: 1px #004C7D solid;
+}
+.footerTop{
+    background-color: #4C4C4C;
+    height: 10px;
+}
+.footerContent{
+    background-color: #333333;
+    height: 170px;
+    color: #999999;
+}
+.footerContent .nav-link{
+    padding: 2px;
+}
+
+
+@media (max-width:992px){
+    .carousel-indicators{
+        margin-right: 500px;
+    }
+    .newcontent{
+        width: 300px;
+    }
+    .social-connection{
+        width: 230px;
+        
+    }
+}
+@media(max-width:768px){
+    .carousel-indicators{
+        margin-right: 300px;
+    }
+    #slider{
+        height: 250px;
+    }
+    .footerContent{
+        height: 200px;
+    }
+    #featuredBoxes .card{
+        margin-bottom: 20px;
+    }
+    .newsHead{
+        margin-top: 20px;
+    }
+    .contact{
+        margin-top: 20px;
+    }
+}
+@media(max-width:576px){
+    .carousel-indicators{
+        margin-right: 200px;
+    }
+    .footerContent{
+        height: 250px;
+    }
+}
